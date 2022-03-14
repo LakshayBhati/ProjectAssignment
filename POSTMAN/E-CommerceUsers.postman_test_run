@@ -1,0 +1,111 @@
+{
+	"id": "80900de1-09ca-4528-b188-29e74a7430a8",
+	"name": "E-Commerce",
+	"timestamp": "2022-03-14T15:20:11.296Z",
+	"collection_id": "19955308-1ac4f5f2-a506-4136-bc0b-8d92e6f4918c",
+	"folder_id": "19955308-8e963bae-0e2f-4a29-823a-60195240c19b",
+	"environment_id": "19955308-f12116ef-3dc4-42ca-a513-671b3773e515",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a0f898db-5581-4e09-987c-ed5953b8df52",
+			"name": "Login",
+			"url": "https://ecommerceservice.herokuapp.com/user/login",
+			"time": 3950,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3950
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "965aed80-6058-4111-ae4f-e71d64d085e8",
+			"name": "Get All Users",
+			"url": "https://ecommerceservice.herokuapp.com/user",
+			"time": 1690,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1690
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "208b3569-be68-40fd-9ff2-adff4a256a68",
+			"name": "Delete User",
+			"url": "https://ecommerceservice.herokuapp.com/user/622a4f75b48d5a0017a5c686",
+			"time": 818,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				818
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 6458,
+	"collection": {
+		"requests": [
+			{
+				"id": "a0f898db-5581-4e09-987c-ed5953b8df52",
+				"method": "POST"
+			},
+			{
+				"id": "965aed80-6058-4111-ae4f-e71d64d085e8",
+				"method": "GET"
+			},
+			{
+				"id": "208b3569-be68-40fd-9ff2-adff4a256a68",
+				"method": "DELETE"
+			}
+		]
+	}
+}

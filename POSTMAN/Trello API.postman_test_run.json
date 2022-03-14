@@ -1,0 +1,142 @@
+{
+	"id": "b27153b3-cf48-474f-b39c-ae2b7de32321",
+	"name": "Trello API",
+	"timestamp": "2022-03-14T15:16:46.048Z",
+	"collection_id": "19955308-efca1edf-8cea-49d5-bde4-d7039e5c9dd6",
+	"folder_id": 0,
+	"environment_id": "19955308-f12116ef-3dc4-42ca-a513-671b3773e515",
+	"totalPass": 4,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "60153b1c-ad92-400b-8da5-5871ceada0da",
+			"name": "Create A Board",
+			"url": "https://api.trello.com/1/boards/?name=Lakshay%27s%20Board&key=8e3e37f415953197537b94d4f97feed1&token=6e9807d27aa5c2530b7394721320fac821874685590668be98d4ce32de974720",
+			"time": 920,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				920
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2c09f228-21e8-4171-bd56-6a7efd537f8e",
+			"name": "Get The Board",
+			"url": "https://api.trello.com/1/boards/622f5c6086567c851cebf8c2?key=8e3e37f415953197537b94d4f97feed1&token=6e9807d27aa5c2530b7394721320fac821874685590668be98d4ce32de974720",
+			"time": 368,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				368
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b0b79981-a183-4a54-88e9-4b8f948f530c",
+			"name": "Update A Board",
+			"url": "https://api.trello.com/1/boards/622f5c6086567c851cebf8c2?Name=Lakshay%27s%20New%20Board&key=8e3e37f415953197537b94d4f97feed1&token=6e9807d27aa5c2530b7394721320fac821874685590668be98d4ce32de974720",
+			"time": 370,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				370
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7021748d-9f52-4741-896e-8521cffe8640",
+			"name": "Delete A Board",
+			"url": "https://api.trello.com/1/boards/622f5c6086567c851cebf8c2?key=8e3e37f415953197537b94d4f97feed1&token=6e9807d27aa5c2530b7394721320fac821874685590668be98d4ce32de974720",
+			"time": 638,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				638
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2296,
+	"collection": {
+		"requests": [
+			{
+				"id": "60153b1c-ad92-400b-8da5-5871ceada0da",
+				"method": "POST"
+			},
+			{
+				"id": "2c09f228-21e8-4171-bd56-6a7efd537f8e",
+				"method": "GET"
+			},
+			{
+				"id": "b0b79981-a183-4a54-88e9-4b8f948f530c",
+				"method": "PUT"
+			},
+			{
+				"id": "7021748d-9f52-4741-896e-8521cffe8640",
+				"method": "DELETE"
+			}
+		]
+	}
+}

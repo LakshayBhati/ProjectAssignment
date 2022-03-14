@@ -1,0 +1,98 @@
+{
+	"id": "4355eb30-6658-422e-b7a8-f448171cfda2",
+	"name": "Google Map",
+	"timestamp": "2022-03-14T15:17:25.639Z",
+	"collection_id": "19955308-edb61378-1527-4ffe-9638-07067a49bd0e",
+	"folder_id": 0,
+	"environment_id": "19955308-f12116ef-3dc4-42ca-a513-671b3773e515",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "12065b13-db95-4517-80a0-646aab16bbde",
+			"name": "Add",
+			"url": "http://216.10.245.166/maps/api/place/add/json?key=qaclick123",
+			"time": 133,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should contain this value": true,
+				"Scope should contain this value": true,
+				"Status": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should contain this value": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Scope should contain this value": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				133
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should contain this value": true,
+					"Scope should contain this value": true,
+					"Status": true
+				}
+			]
+		},
+		{
+			"id": "8fd2eb45-aa38-4dc5-9898-e42a9f94c97c",
+			"name": "Delete",
+			"url": "http://216.10.245.166/maps/api/place/delete/json?key=qaclick123",
+			"time": 110,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				110
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 243,
+	"collection": {
+		"requests": [
+			{
+				"id": "12065b13-db95-4517-80a0-646aab16bbde",
+				"method": "POST"
+			},
+			{
+				"id": "8fd2eb45-aa38-4dc5-9898-e42a9f94c97c",
+				"method": "DELETE"
+			}
+		]
+	}
+}
